@@ -1,0 +1,321 @@
+2026-03-17T19:40:16.604+05:30  INFO 9672 --- [restartedMain] com.ecommerce.EcommerceApplication       : Starting EcommerceApplication using Java 21.0.8 with PID 9672 (C:\Users\tamil\OneDrive\Desktop\E_commerce\E_commerce\BackEnd\target\classes started by tamil in C:\Users\tamil\OneDrive\Desktop\E_commerce\E_commerce\BackEnd)
+2026-03-17T19:40:16.612+05:30 DEBUG 9672 --- [restartedMain] com.ecommerce.EcommerceApplication       : Running with Spring Boot v3.4.4, Spring v6.2.5
+2026-03-17T19:40:16.614+05:30  INFO 9672 --- [restartedMain] com.ecommerce.EcommerceApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-17T19:40:16.715+05:30  INFO 9672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-17T19:40:16.715+05:30  INFO 9672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-17T19:40:17.725+05:30  INFO 9672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-17T19:40:17.727+05:30  INFO 9672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-03-17T19:40:17.775+05:30  INFO 9672 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ecommerce.repository.CartRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-03-17T19:40:17.777+05:30  INFO 9672 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ecommerce.repository.OrderRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-03-17T19:40:17.777+05:30  INFO 9672 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ecommerce.repository.ProductRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-03-17T19:40:17.778+05:30  INFO 9672 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ecommerce.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-03-17T19:40:17.779+05:30  INFO 9672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 0 JDBC repository interfaces.
+2026-03-17T19:40:17.795+05:30  INFO 9672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-17T19:40:17.797+05:30  INFO 9672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-17T19:40:17.835+05:30  INFO 9672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 4 JPA repository interfaces.
+2026-03-17T19:40:18.390+05:30  INFO 9672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-17T19:40:18.403+05:30  INFO 9672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-17T19:40:18.403+05:30  INFO 9672 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-03-17T19:40:18.455+05:30  INFO 9672 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-17T19:40:18.455+05:30  INFO 9672 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1739 ms
+2026-03-17T19:40:18.605+05:30  INFO 9672 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-17T19:40:18.668+05:30  INFO 9672 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-03-17T19:40:18.708+05:30  INFO 9672 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-17T19:40:19.007+05:30  INFO 9672 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-17T19:40:19.033+05:30  INFO 9672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-17T19:40:19.358+05:30  INFO 9672 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@374729c5
+2026-03-17T19:40:19.360+05:30  INFO 9672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-17T19:40:19.423+05:30  WARN 9672 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-17T19:40:19.470+05:30  INFO 9672 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-17T19:40:20.458+05:30  INFO 9672 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-17T19:40:20.918+05:30  INFO 9672 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T19:40:21.233+05:30 DEBUG 9672 --- [restartedMain] com.ecommerce.config.JwtAuthFilter       : Filter 'jwtAuthFilter' configured for use
+2026-03-17T19:40:21.298+05:30  INFO 9672 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-17T19:40:21.382+05:30  WARN 9672 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [C:\Users\tamil\OneDrive\Desktop\E_commerce\E_commerce\BackEnd\target\classes\com\ecommerce\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService' defined in file [C:\Users\tamil\OneDrive\Desktop\E_commerce\E_commerce\BackEnd\target\classes\com\ecommerce\service\OrderService.class]: Failed to instantiate [com.ecommerce.service.OrderService]: Constructor threw exception
+2026-03-17T19:40:21.382+05:30  INFO 9672 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T19:40:21.385+05:30  INFO 9672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-17T19:40:21.388+05:30  INFO 9672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-17T19:40:21.393+05:30  INFO 9672 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-03-17T19:40:21.404+05:30  INFO 9672 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-17T19:40:21.427+05:30 ERROR 9672 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [C:\Users\tamil\OneDrive\Desktop\E_commerce\E_commerce\BackEnd\target\classes\com\ecommerce\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService' defined in file [C:\Users\tamil\OneDrive\Desktop\E_commerce\E_commerce\BackEnd\target\classes\com\ecommerce\service\OrderService.class]: Failed to instantiate [com.ecommerce.service.OrderService]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1381) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.4.jar:3.4.4]
+	at com.ecommerce.EcommerceApplication.main(EcommerceApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.4.jar:3.4.4]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService' defined in file [C:\Users\tamil\OneDrive\Desktop\E_commerce\E_commerce\BackEnd\target\classes\com\ecommerce\service\OrderService.class]: Failed to instantiate [com.ecommerce.service.OrderService]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1381) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1609) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.ecommerce.service.OrderService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:145) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 37 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method getId() is undefined for the type User
+	The method getRole() is undefined for the type User
+	The method getRole() is undefined for the type User
+	The method getUser() is undefined for the type Order
+	The method getId() is undefined for the type User
+	The method getId() is undefined for the type User
+	The method getItems() is undefined for the type Cart
+	The method builder() is undefined for the type Order
+	The method getItems() is undefined for the type Cart
+	Cannot infer type argument(s) for <R> map(Function<? super T,? extends R>)
+	The method getPriceAtPurchase() is undefined for the type OrderItem
+	The method getQuantity() is undefined for the type OrderItem
+	The method setItems(List<OrderItem>) is undefined for the type Order
+	The method setTotalAmount(BigDecimal) is undefined for the type Order
+	The method setStatus(Order.OrderStatus) is undefined for the type Order
+	The method getItems() is undefined for the type Order
+	The method builder() is undefined for the type OrderDTO
+	The method getId() is undefined for the type Order
+	The method getUser() is undefined for the type Order
+	The method getUser() is undefined for the type Order
+	The method getUser() is undefined for the type Order
+	The method getTotalAmount() is undefined for the type Order
+	The method getStatus() is undefined for the type Order
+	The method getShippingAddress() is undefined for the type Order
+	The method getCreatedAt() is undefined for the type Order
+
+	at com.ecommerce.service.OrderService.<init>(OrderService.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:209) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 39 common frames omitted
+
+2026-03-17T19:42:17.291+05:30  INFO 2488 --- [restartedMain] com.ecommerce.EcommerceApplication       : Starting EcommerceApplication using Java 21.0.8 with PID 2488 (C:\Users\tamil\OneDrive\Desktop\E_commerce\E_commerce\BackEnd\target\classes started by tamil in C:\Users\tamil\OneDrive\Desktop\E_commerce\E_commerce\BackEnd)
+2026-03-17T19:42:17.305+05:30 DEBUG 2488 --- [restartedMain] com.ecommerce.EcommerceApplication       : Running with Spring Boot v3.4.4, Spring v6.2.5
+2026-03-17T19:42:17.306+05:30  INFO 2488 --- [restartedMain] com.ecommerce.EcommerceApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-17T19:42:17.354+05:30  INFO 2488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-17T19:42:17.355+05:30  INFO 2488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-17T19:42:18.139+05:30  INFO 2488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-17T19:42:18.140+05:30  INFO 2488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-03-17T19:42:18.178+05:30  INFO 2488 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ecommerce.repository.CartRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-03-17T19:42:18.180+05:30  INFO 2488 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ecommerce.repository.OrderRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-03-17T19:42:18.180+05:30  INFO 2488 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ecommerce.repository.ProductRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-03-17T19:42:18.181+05:30  INFO 2488 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ecommerce.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-03-17T19:42:18.182+05:30  INFO 2488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 0 JDBC repository interfaces.
+2026-03-17T19:42:18.195+05:30  INFO 2488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-17T19:42:18.197+05:30  INFO 2488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-17T19:42:18.237+05:30  INFO 2488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+2026-03-17T19:42:18.849+05:30  INFO 2488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-17T19:42:18.865+05:30  INFO 2488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-17T19:42:18.865+05:30  INFO 2488 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-03-17T19:42:18.935+05:30  INFO 2488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-17T19:42:18.936+05:30  INFO 2488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1580 ms
+2026-03-17T19:42:19.160+05:30  INFO 2488 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-17T19:42:19.255+05:30  INFO 2488 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-03-17T19:42:19.304+05:30  INFO 2488 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-17T19:42:19.712+05:30  INFO 2488 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-17T19:42:19.741+05:30  INFO 2488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-17T19:42:19.982+05:30  INFO 2488 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e684835
+2026-03-17T19:42:19.984+05:30  INFO 2488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-17T19:42:20.013+05:30  WARN 2488 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-17T19:42:20.030+05:30  INFO 2488 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-17T19:42:21.142+05:30  INFO 2488 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-17T19:42:21.567+05:30  INFO 2488 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T19:42:21.883+05:30 DEBUG 2488 --- [restartedMain] com.ecommerce.config.JwtAuthFilter       : Filter 'jwtAuthFilter' configured for use
+2026-03-17T19:42:21.982+05:30  INFO 2488 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-17T19:42:22.141+05:30  WARN 2488 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-17T19:42:22.439+05:30 DEBUG 2488 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-03-17T19:42:22.834+05:30  INFO 2488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-17T19:42:22.890+05:30  INFO 2488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-17T19:42:22.896+05:30  INFO 2488 --- [restartedMain] com.ecommerce.EcommerceApplication       : Started EcommerceApplication in 6.051 seconds (process running for 6.744)
+2026-03-17T19:42:29.958+05:30  INFO 2488 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-17T19:42:29.958+05:30  INFO 2488 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-17T19:42:29.960+05:30  INFO 2488 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-03-17T19:42:29.993+05:30 DEBUG 2488 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/cart
+2026-03-17T19:42:29.993+05:30 DEBUG 2488 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T19:42:29.993+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T19:42:30.047+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/cart
+2026-03-17T19:42:30.047+05:30 DEBUG 2488 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T19:42:30.152+05:30 ERROR 2488 --- [http-nio-8080-exec-5] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:12:30Z, a difference of 260621150 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T19:42:30.152+05:30 ERROR 2488 --- [http-nio-8080-exec-4] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:12:30Z, a difference of 260621150 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T19:42:30.155+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T19:42:30.155+05:30 DEBUG 2488 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T19:42:30.156+05:30 DEBUG 2488 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T19:42:30.156+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T19:42:30.166+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-17T19:42:30.167+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T19:42:30.167+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T19:42:30.296+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T19:42:30.300+05:30 ERROR 2488 --- [http-nio-8080-exec-6] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:12:30Z, a difference of 260621300 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T19:42:30.301+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T19:42:30.301+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T19:58:36.948+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T19:58:36.956+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T19:58:36.992+05:30 DEBUG 2488 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T19:58:37.040+05:30 ERROR 2488 --- [http-nio-8080-exec-1] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:28:37Z, a difference of 261588040 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T19:58:37.043+05:30 DEBUG 2488 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T19:58:37.044+05:30 DEBUG 2488 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T19:58:37.102+05:30 DEBUG 2488 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T19:58:37.132+05:30 ERROR 2488 --- [http-nio-8080-exec-3] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:28:37Z, a difference of 261588132 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T19:58:37.132+05:30 DEBUG 2488 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T19:58:37.134+05:30 DEBUG 2488 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:01:03.843+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:01:03.843+05:30 DEBUG 2488 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:01:03.852+05:30 DEBUG 2488 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:01:03.857+05:30 ERROR 2488 --- [http-nio-8080-exec-9] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:31:03Z, a difference of 261734857 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:01:03.857+05:30 DEBUG 2488 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:01:03.859+05:30 DEBUG 2488 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:01:03.866+05:30 DEBUG 2488 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/cart
+2026-03-17T20:01:03.872+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/cart
+2026-03-17T20:01:03.875+05:30 ERROR 2488 --- [http-nio-8080-exec-2] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:31:03Z, a difference of 261734875 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:01:03.875+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:01:03.875+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:01:03.878+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:01:03.879+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-17T20:01:03.879+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:01:03.879+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:01:03.879+05:30 ERROR 2488 --- [http-nio-8080-exec-10] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:31:03Z, a difference of 261734879 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:01:03.879+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:01:03.879+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:04:25.728+05:30 DEBUG 2488 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:04:25.728+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:04:25.733+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:04:25.738+05:30 ERROR 2488 --- [http-nio-8080-exec-6] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:34:25Z, a difference of 261936737 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:04:25.738+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:04:25.738+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:04:25.749+05:30 DEBUG 2488 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/cart
+2026-03-17T20:04:25.755+05:30 DEBUG 2488 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/cart
+2026-03-17T20:04:25.758+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:04:25.761+05:30 ERROR 2488 --- [http-nio-8080-exec-9] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:34:25Z, a difference of 261936760 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:04:25.761+05:30 DEBUG 2488 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:04:25.762+05:30 DEBUG 2488 --- [http-nio-8080-exec-9] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:04:25.763+05:30 ERROR 2488 --- [http-nio-8080-exec-2] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:34:25Z, a difference of 261936763 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:04:25.763+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:04:25.763+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:04:25.763+05:30 DEBUG 2488 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-17T20:04:25.763+05:30 DEBUG 2488 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:04:25.765+05:30 DEBUG 2488 --- [http-nio-8080-exec-9] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:18:48.654+05:30 DEBUG 2488 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:18:48.654+05:30 DEBUG 2488 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:18:48.661+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:18:48.663+05:30 ERROR 2488 --- [http-nio-8080-exec-5] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:48:48Z, a difference of 262799663 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:18:48.665+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:18:48.665+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:18:48.683+05:30 DEBUG 2488 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/cart
+2026-03-17T20:18:48.685+05:30 DEBUG 2488 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:18:48.686+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/cart
+2026-03-17T20:18:48.689+05:30 ERROR 2488 --- [http-nio-8080-exec-8] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:48:48Z, a difference of 262799689 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:18:48.689+05:30 ERROR 2488 --- [http-nio-8080-exec-6] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:48:48Z, a difference of 262799689 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:18:48.689+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:18:48.689+05:30 DEBUG 2488 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:18:48.689+05:30 DEBUG 2488 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:18:48.689+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:18:48.691+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-17T20:18:48.691+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:18:48.691+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:25:56.184+05:30 DEBUG 2488 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:25:56.184+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:25:56.184+05:30 DEBUG 2488 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/cart
+2026-03-17T20:25:56.190+05:30 DEBUG 2488 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:25:56.190+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/cart
+2026-03-17T20:25:56.193+05:30 ERROR 2488 --- [http-nio-8080-exec-5] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:55:56Z, a difference of 263227193 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:25:56.193+05:30 ERROR 2488 --- [http-nio-8080-exec-7] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:55:56Z, a difference of 263227193 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:25:56.193+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:25:56.193+05:30 DEBUG 2488 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:25:56.193+05:30 DEBUG 2488 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:25:56.193+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:25:56.194+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-17T20:25:56.194+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:25:56.195+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:25:56.206+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:25:56.211+05:30 ERROR 2488 --- [http-nio-8080-exec-6] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:55:56Z, a difference of 263227210 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:25:56.211+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:25:56.211+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:37:19.760+05:30 DEBUG 2488 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:37:19.760+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:37:19.765+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:37:19.769+05:30 ERROR 2488 --- [http-nio-8080-exec-10] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T15:07:19Z, a difference of 263910769 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:37:19.769+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:37:19.769+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:37:19.770+05:30 DEBUG 2488 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/cart
+2026-03-17T20:37:19.774+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/cart
+2026-03-17T20:37:19.778+05:30 ERROR 2488 --- [http-nio-8080-exec-5] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T15:07:19Z, a difference of 263910778 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:37:19.778+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:37:19.778+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:37:19.780+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-17T20:37:19.780+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:37:19.780+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:37:19.782+05:30 DEBUG 2488 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:37:19.783+05:30 ERROR 2488 --- [http-nio-8080-exec-7] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T15:07:19Z, a difference of 263910783 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:37:19.784+05:30 DEBUG 2488 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:37:19.784+05:30 DEBUG 2488 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:38:29.308+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:38:29.308+05:30 DEBUG 2488 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:38:29.313+05:30 DEBUG 2488 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:38:29.318+05:30 ERROR 2488 --- [http-nio-8080-exec-4] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T15:08:29Z, a difference of 263980317 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:38:29.318+05:30 DEBUG 2488 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:38:29.319+05:30 DEBUG 2488 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:38:29.322+05:30 DEBUG 2488 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/cart
+2026-03-17T20:38:29.327+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/cart
+2026-03-17T20:38:29.330+05:30 ERROR 2488 --- [http-nio-8080-exec-10] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T15:08:29Z, a difference of 263980330 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:38:29.331+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:38:29.331+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:38:29.331+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:38:29.331+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-17T20:38:29.333+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:38:29.333+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:38:29.335+05:30 ERROR 2488 --- [http-nio-8080-exec-5] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T15:08:29Z, a difference of 263980335 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:38:29.335+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:38:29.336+05:30 DEBUG 2488 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T21:03:36.024+05:30  INFO 2488 --- [RMI TCP Connection(85)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-03-17T21:03:36.030+05:30  INFO 2488 --- [RMI TCP Connection(85)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-17T21:03:36.037+05:30  INFO 2488 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-17T21:03:36.044+05:30  INFO 2488 --- [RMI TCP Connection(85)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17T21:03:36.050+05:30  INFO 2488 --- [RMI TCP Connection(85)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-17T21:03:36.054+05:30  INFO 2488 --- [RMI TCP Connection(85)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
